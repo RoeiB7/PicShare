@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F14B9A3657729A4FC8754D1 /* Pods_PicShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A86C91A38DEF0B19D56059 /* Pods_PicShare.framework */; };
+		6106B4BB2865B30C00940ACE /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6106B4BA2865B30C00940ACE /* UploadImageViewController.swift */; };
 		6125EC082864B16A0000E336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6125EC072864B16A0000E336 /* AppDelegate.swift */; };
 		6125EC0A2864B16A0000E336 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6125EC092864B16A0000E336 /* SceneDelegate.swift */; };
-		6125EC0C2864B16A0000E336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6125EC0B2864B16A0000E336 /* ViewController.swift */; };
+		6125EC0C2864B16A0000E336 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6125EC0B2864B16A0000E336 /* SignInViewController.swift */; };
 		6125EC0F2864B16A0000E336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6125EC0D2864B16A0000E336 /* Main.storyboard */; };
 		6125EC112864B16F0000E336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6125EC102864B16F0000E336 /* Assets.xcassets */; };
 		6125EC142864B16F0000E336 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6125EC122864B16F0000E336 /* LaunchScreen.storyboard */; };
+		615193682874830A00698C1F /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615193672874830A00698C1F /* UserProfileViewController.swift */; };
+		616A1A582864C73D00E7428E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A1A572864C73C00E7428E /* SignUpViewController.swift */; };
+		616A1A5A2865A1BA00E7428E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616A1A592865A1BA00E7428E /* HomeViewController.swift */; };
+		61B07519286729050046E748 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B07518286729050046E748 /* MyProfileViewController.swift */; };
+		61F3D080286A05E4000479B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 61F3D07F286A05E4000479B7 /* GoogleService-Info.plist */; };
+		61F3D08228718168000479B7 /* SearchImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3D08128718168000479B7 /* SearchImageViewController.swift */; };
+		61F3D08428718C7A000479B7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3D08328718C7A000479B7 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FAC24F1F23D899D0CE1CE08 /* Pods-PicShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicShare.release.xcconfig"; path = "Target Support Files/Pods-PicShare/Pods-PicShare.release.xcconfig"; sourceTree = "<group>"; };
+		24A86C91A38DEF0B19D56059 /* Pods_PicShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6106B4BA2865B30C00940ACE /* UploadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
 		6125EC042864B16A0000E336 /* PicShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6125EC072864B16A0000E336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6125EC092864B16A0000E336 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6125EC0B2864B16A0000E336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6125EC0B2864B16A0000E336 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		6125EC0E2864B16A0000E336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6125EC102864B16F0000E336 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6125EC132864B16F0000E336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6125EC152864B16F0000E336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615193672874830A00698C1F /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		616A1A572864C73C00E7428E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		616A1A592865A1BA00E7428E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		61B07518286729050046E748 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		61F3D07F286A05E4000479B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		61F3D08128718168000479B7 /* SearchImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchImageViewController.swift; sourceTree = "<group>"; };
+		61F3D08328718C7A000479B7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CDAA85D6F7A8A5F2E83083EA /* Pods-PicShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicShare.debug.xcconfig"; path = "Target Support Files/Pods-PicShare/Pods-PicShare.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F14B9A3657729A4FC8754D1 /* Pods_PicShare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03F6567084797433F6F58171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A86C91A38DEF0B19D56059 /* Pods_PicShare.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B1F4BE88712B32105E6B876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDAA85D6F7A8A5F2E83083EA /* Pods-PicShare.debug.xcconfig */,
+				1FAC24F1F23D899D0CE1CE08 /* Pods-PicShare.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6125EBFB2864B16A0000E336 = {
 			isa = PBXGroup;
 			children = (
 				6125EC062864B16A0000E336 /* PicShare */,
 				6125EC052864B16A0000E336 /* Products */,
+				1B1F4BE88712B32105E6B876 /* Pods */,
+				03F6567084797433F6F58171 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +98,18 @@
 			children = (
 				6125EC072864B16A0000E336 /* AppDelegate.swift */,
 				6125EC092864B16A0000E336 /* SceneDelegate.swift */,
-				6125EC0B2864B16A0000E336 /* ViewController.swift */,
+				6125EC0B2864B16A0000E336 /* SignInViewController.swift */,
+				616A1A572864C73C00E7428E /* SignUpViewController.swift */,
+				616A1A592865A1BA00E7428E /* HomeViewController.swift */,
+				6106B4BA2865B30C00940ACE /* UploadImageViewController.swift */,
+				61B07518286729050046E748 /* MyProfileViewController.swift */,
+				61F3D08128718168000479B7 /* SearchImageViewController.swift */,
+				61F3D08328718C7A000479B7 /* CustomTableViewCell.swift */,
+				615193672874830A00698C1F /* UserProfileViewController.swift */,
 				6125EC0D2864B16A0000E336 /* Main.storyboard */,
 				6125EC102864B16F0000E336 /* Assets.xcassets */,
 				6125EC122864B16F0000E336 /* LaunchScreen.storyboard */,
+				61F3D07F286A05E4000479B7 /* GoogleService-Info.plist */,
 				6125EC152864B16F0000E336 /* Info.plist */,
 			);
 			path = PicShare;
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6125EC182864B16F0000E336 /* Build configuration list for PBXNativeTarget "PicShare" */;
 			buildPhases = (
+				3B73D7FF30C1B0070C81E8A0 /* [CP] Check Pods Manifest.lock */,
 				6125EC002864B16A0000E336 /* Sources */,
 				6125EC012864B16A0000E336 /* Frameworks */,
 				6125EC022864B16A0000E336 /* Resources */,
+				35E1A8800E570A9AE619B68D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6125EC142864B16F0000E336 /* LaunchScreen.storyboard in Resources */,
+				61F3D080286A05E4000479B7 /* GoogleService-Info.plist in Resources */,
 				6125EC112864B16F0000E336 /* Assets.xcassets in Resources */,
 				6125EC0F2864B16A0000E336 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +184,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35E1A8800E570A9AE619B68D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicShare/Pods-PicShare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicShare/Pods-PicShare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PicShare/Pods-PicShare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B73D7FF30C1B0070C81E8A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicShare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6125EC002864B16A0000E336 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6125EC0C2864B16A0000E336 /* ViewController.swift in Sources */,
+				61F3D08428718C7A000479B7 /* CustomTableViewCell.swift in Sources */,
+				615193682874830A00698C1F /* UserProfileViewController.swift in Sources */,
+				616A1A5A2865A1BA00E7428E /* HomeViewController.swift in Sources */,
+				6125EC0C2864B16A0000E336 /* SignInViewController.swift in Sources */,
+				61F3D08228718168000479B7 /* SearchImageViewController.swift in Sources */,
+				61B07519286729050046E748 /* MyProfileViewController.swift in Sources */,
 				6125EC082864B16A0000E336 /* AppDelegate.swift in Sources */,
 				6125EC0A2864B16A0000E336 /* SceneDelegate.swift in Sources */,
+				616A1A582864C73D00E7428E /* SignUpViewController.swift in Sources */,
+				6106B4BB2865B30C00940ACE /* UploadImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +382,7 @@
 		};
 		6125EC192864B16F0000E336 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDAA85D6F7A8A5F2E83083EA /* Pods-PicShare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +390,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PicShare/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow access to pick image.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,12 +405,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6125EC1A2864B16F0000E336 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FAC24F1F23D899D0CE1CE08 /* Pods-PicShare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +419,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PicShare/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow access to pick image.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +434,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
